@@ -31,3 +31,18 @@
     }
   ]
 }
+{
+  "app": {
+    "signingConfigs": [],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 12,
+        "compatibleSdkVersion": 12,
+        "runtimeOS": "HarmonyOS",
+        "multiDeviceType": ["phone", "tablet", "wearable"] // ← 添加这一行
+      }
+    ]
+  }
+}

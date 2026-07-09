@@ -8,3 +8,12 @@
   "dependencies": {}
 }
 
+{
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    // ... 原有的依赖 ...
+    "common": "file:../common",           // ← 添加这一行
+    "features-led": "file:../features/led" // ← 添加这一行
+  }
+}

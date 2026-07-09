@@ -14,7 +14,7 @@
  */
 
 import { window } from '@kit.ArkUI';
-import { Settings } from '../model/Settings';
+import { Settings } from '../../../../../../entry/src/main/ets/model/Settings';
 
 @ComponentV2
 export struct Led {
